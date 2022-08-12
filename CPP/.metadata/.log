@@ -1,0 +1,288 @@
+!SESSION 2022-08-12 12:22:55.725 -----------------------------------------------
+eclipse.buildId=4.14.0.I20191210-0610
+java.version=18.0.2-ea
+java.vendor=Private Build
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os linux -ws gtk -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.equinox.p2.metadata 1 0 2022-08-12 12:25:31.257
+!MESSAGE No translation source unavailable. Default language will be used.
+!SESSION 2022-08-12 12:28:04.694 -----------------------------------------------
+eclipse.buildId=4.14.0.I20191210-0610
+java.version=18.0.2-ea
+java.vendor=Private Build
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os linux -ws gtk -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.equinox.p2.transport.ecf 2 0 2022-08-12 12:41:02.005
+!MESSAGE Connection to http://download.eclipse.org/windowbuilder/latest/features/org.eclipse.wb.core.java.feature_1.9.8.202203170939.jar failed on download.eclipse.org:80 failed to respond. Retry attempt 0 started
+!STACK 0
+org.apache.http.NoHttpResponseException: download.eclipse.org:80 failed to respond
+	at org.apache.http.impl.conn.DefaultHttpResponseParser.parseHead(DefaultHttpResponseParser.java:141)
+	at org.apache.http.impl.conn.DefaultHttpResponseParser.parseHead(DefaultHttpResponseParser.java:56)
+	at org.apache.http.impl.io.AbstractMessageParser.parse(AbstractMessageParser.java:259)
+	at org.apache.http.impl.DefaultBHttpClientConnection.receiveResponseHeader(DefaultBHttpClientConnection.java:163)
+	at org.apache.http.impl.conn.CPoolProxy.receiveResponseHeader(CPoolProxy.java:165)
+	at org.apache.http.protocol.HttpRequestExecutor.doReceiveResponse(HttpRequestExecutor.java:273)
+	at org.apache.http.protocol.HttpRequestExecutor.execute(HttpRequestExecutor.java:125)
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:272)
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:185)
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:89)
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:185)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)
+	at org.eclipse.ecf.provider.filetransfer.httpclient45.HttpClientRetrieveFileTransfer.performConnect(HttpClientRetrieveFileTransfer.java:1000)
+	at org.eclipse.ecf.provider.filetransfer.httpclient45.HttpClientRetrieveFileTransfer.access$0(HttpClientRetrieveFileTransfer.java:992)
+	at org.eclipse.ecf.provider.filetransfer.httpclient45.HttpClientRetrieveFileTransfer$1.performFileTransfer(HttpClientRetrieveFileTransfer.java:988)
+	at org.eclipse.ecf.filetransfer.FileTransferJob.run(FileTransferJob.java:74)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.equinox.p2.operations 4 0 2022-08-12 12:43:58.209
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.operations 2 10001 2022-08-12 12:43:58.209
+!MESSAGE Your original request has been modified.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10005 2022-08-12 12:43:58.209
+!MESSAGE "WindowBuilder Core" will be ignored because it is already installed.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10005 2022-08-12 12:43:58.209
+!MESSAGE "WindowBuilder SWT Designer" will be ignored because it is already installed.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2022-08-12 12:43:58.209
+!MESSAGE "JavaScript Development Tools" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10005 2022-08-12 12:43:58.209
+!MESSAGE "WindowBuilder SWT Designer Core" will be ignored because it is already installed.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10005 2022-08-12 12:43:58.209
+!MESSAGE "WindowBuilder SWT Designer Documentation" will be ignored because it is already installed.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10005 2022-08-12 12:43:58.209
+!MESSAGE "WindowBuilder Core UI" will be ignored because it is already installed.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10005 2022-08-12 12:43:58.209
+!MESSAGE "WindowBuilder GroupLayout Support" will be ignored because it is already installed.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10005 2022-08-12 12:43:58.209
+!MESSAGE "WindowBuilder Java Core" will be ignored because it is already installed.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10005 2022-08-12 12:43:58.209
+!MESSAGE "WindowBuilder Core Documentation" will be ignored because it is already installed.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10005 2022-08-12 12:43:58.209
+!MESSAGE "WindowBuilder Swing Designer Documentation" will be ignored because it is already installed.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10005 2022-08-12 12:43:58.209
+!MESSAGE "WindowBuilder SWT Designer SWT_AWT Support" will be ignored because it is already installed.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10005 2022-08-12 12:43:58.209
+!MESSAGE "WindowBuilder Swing Designer" will be ignored because it is already installed.
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 10054 2022-08-12 12:43:58.209
+!MESSAGE Cannot complete the install because of a conflicting dependency.
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2022-08-12 12:43:58.209
+!MESSAGE Software being installed: PHP Development Tools (PDT) 7.2.1.202112011741 (org.eclipse.php.feature.group 7.2.1.202112011741)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2022-08-12 12:43:58.209
+!MESSAGE Software currently installed: Eclipse XML Editors and Tools 3.16.0.v201911262138 (org.eclipse.wst.xml_ui.feature.feature.group 3.16.0.v201911262138)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2022-08-12 12:43:58.209
+!MESSAGE Only one of the following can be installed at once: 
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2022-08-12 12:43:58.209
+!MESSAGE Structured Source Editor 1.7.400.v202204091445 (org.eclipse.wst.sse.ui 1.7.400.v202204091445)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2022-08-12 12:43:58.209
+!MESSAGE Structured Source Editor 1.6.200.v201911262138 (org.eclipse.wst.sse.ui 1.6.200.v201911262138)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2022-08-12 12:43:58.209
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2022-08-12 12:43:58.209
+!MESSAGE From: PHP Development Tools (PDT) 7.2.1.202112011741 (org.eclipse.php.feature.group 7.2.1.202112011741)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2022-08-12 12:43:58.209
+!MESSAGE To: org.eclipse.equinox.p2.iu; org.eclipse.php.ui [7.2.1.202112011741,7.2.1.202112011741]
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2022-08-12 12:43:58.209
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2022-08-12 12:43:58.209
+!MESSAGE From: PDT UI Plug-in 7.2.1.202112011741 (org.eclipse.php.ui 7.2.1.202112011741)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2022-08-12 12:43:58.209
+!MESSAGE To: osgi.bundle; org.eclipse.wst.sse.ui 1.7.0
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2022-08-12 12:43:58.209
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2022-08-12 12:43:58.209
+!MESSAGE From: Eclipse XML Editors and Tools 3.16.0.v201911262138 (org.eclipse.wst.xml_ui.feature.feature.group 3.16.0.v201911262138)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2022-08-12 12:43:58.209
+!MESSAGE To: org.eclipse.equinox.p2.iu; org.eclipse.wst.sse.ui [1.6.200.v201911262138,1.6.200.v201911262138]
+
+!ENTRY org.eclipse.equinox.p2.operations 4 0 2022-08-12 12:43:58.235
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.operations 2 10001 2022-08-12 12:43:58.235
+!MESSAGE Your original request has been modified.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10005 2022-08-12 12:43:58.235
+!MESSAGE "WindowBuilder Core" will be ignored because it is already installed.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10005 2022-08-12 12:43:58.235
+!MESSAGE "WindowBuilder SWT Designer" will be ignored because it is already installed.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2022-08-12 12:43:58.235
+!MESSAGE "JavaScript Development Tools" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10005 2022-08-12 12:43:58.235
+!MESSAGE "WindowBuilder SWT Designer Core" will be ignored because it is already installed.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10005 2022-08-12 12:43:58.235
+!MESSAGE "WindowBuilder SWT Designer Documentation" will be ignored because it is already installed.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10005 2022-08-12 12:43:58.235
+!MESSAGE "WindowBuilder Core UI" will be ignored because it is already installed.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10005 2022-08-12 12:43:58.235
+!MESSAGE "WindowBuilder GroupLayout Support" will be ignored because it is already installed.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10005 2022-08-12 12:43:58.235
+!MESSAGE "WindowBuilder Java Core" will be ignored because it is already installed.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10005 2022-08-12 12:43:58.235
+!MESSAGE "WindowBuilder Core Documentation" will be ignored because it is already installed.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10005 2022-08-12 12:43:58.235
+!MESSAGE "WindowBuilder Swing Designer Documentation" will be ignored because it is already installed.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10005 2022-08-12 12:43:58.235
+!MESSAGE "WindowBuilder SWT Designer SWT_AWT Support" will be ignored because it is already installed.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10005 2022-08-12 12:43:58.235
+!MESSAGE "WindowBuilder Swing Designer" will be ignored because it is already installed.
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 10054 2022-08-12 12:43:58.235
+!MESSAGE Cannot complete the install because of a conflicting dependency.
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2022-08-12 12:43:58.235
+!MESSAGE Software being installed: PHP Development Tools (PDT) 7.2.1.202112011741 (org.eclipse.php.feature.group 7.2.1.202112011741)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2022-08-12 12:43:58.235
+!MESSAGE Software currently installed: Eclipse XML Editors and Tools 3.16.0.v201911262138 (org.eclipse.wst.xml_ui.feature.feature.group 3.16.0.v201911262138)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2022-08-12 12:43:58.235
+!MESSAGE Only one of the following can be installed at once: 
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2022-08-12 12:43:58.235
+!MESSAGE Structured Source Editor 1.7.400.v202204091445 (org.eclipse.wst.sse.ui 1.7.400.v202204091445)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2022-08-12 12:43:58.235
+!MESSAGE Structured Source Editor 1.6.200.v201911262138 (org.eclipse.wst.sse.ui 1.6.200.v201911262138)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2022-08-12 12:43:58.236
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2022-08-12 12:43:58.236
+!MESSAGE From: PHP Development Tools (PDT) 7.2.1.202112011741 (org.eclipse.php.feature.group 7.2.1.202112011741)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2022-08-12 12:43:58.236
+!MESSAGE To: org.eclipse.equinox.p2.iu; org.eclipse.php.ui [7.2.1.202112011741,7.2.1.202112011741]
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2022-08-12 12:43:58.236
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2022-08-12 12:43:58.236
+!MESSAGE From: PDT UI Plug-in 7.2.1.202112011741 (org.eclipse.php.ui 7.2.1.202112011741)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2022-08-12 12:43:58.236
+!MESSAGE To: osgi.bundle; org.eclipse.wst.sse.ui 1.7.0
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2022-08-12 12:43:58.236
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2022-08-12 12:43:58.236
+!MESSAGE From: Eclipse XML Editors and Tools 3.16.0.v201911262138 (org.eclipse.wst.xml_ui.feature.feature.group 3.16.0.v201911262138)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2022-08-12 12:43:58.236
+!MESSAGE To: org.eclipse.equinox.p2.iu; org.eclipse.wst.sse.ui [1.6.200.v201911262138,1.6.200.v201911262138]
+
+!ENTRY org.eclipse.equinox.p2.operations 4 0 2022-08-12 12:43:58.403
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.operations 2 10001 2022-08-12 12:43:58.403
+!MESSAGE Your original request has been modified.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10005 2022-08-12 12:43:58.403
+!MESSAGE "WindowBuilder Core" will be ignored because it is already installed.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10005 2022-08-12 12:43:58.403
+!MESSAGE "WindowBuilder SWT Designer" will be ignored because it is already installed.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2022-08-12 12:43:58.403
+!MESSAGE "JavaScript Development Tools" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10005 2022-08-12 12:43:58.403
+!MESSAGE "WindowBuilder SWT Designer Core" will be ignored because it is already installed.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10005 2022-08-12 12:43:58.403
+!MESSAGE "WindowBuilder SWT Designer Documentation" will be ignored because it is already installed.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10005 2022-08-12 12:43:58.403
+!MESSAGE "WindowBuilder Core UI" will be ignored because it is already installed.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10005 2022-08-12 12:43:58.403
+!MESSAGE "WindowBuilder GroupLayout Support" will be ignored because it is already installed.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10005 2022-08-12 12:43:58.403
+!MESSAGE "WindowBuilder Java Core" will be ignored because it is already installed.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10005 2022-08-12 12:43:58.403
+!MESSAGE "WindowBuilder Core Documentation" will be ignored because it is already installed.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10005 2022-08-12 12:43:58.403
+!MESSAGE "WindowBuilder Swing Designer Documentation" will be ignored because it is already installed.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10005 2022-08-12 12:43:58.403
+!MESSAGE "WindowBuilder SWT Designer SWT_AWT Support" will be ignored because it is already installed.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10005 2022-08-12 12:43:58.403
+!MESSAGE "WindowBuilder Swing Designer" will be ignored because it is already installed.
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 10054 2022-08-12 12:43:58.403
+!MESSAGE Cannot complete the install because of a conflicting dependency.
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2022-08-12 12:43:58.403
+!MESSAGE Software being installed: PHP Development Tools (PDT) 7.2.1.202112011741 (org.eclipse.php.feature.group 7.2.1.202112011741)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2022-08-12 12:43:58.403
+!MESSAGE Software currently installed: Eclipse XML Editors and Tools 3.16.0.v201911262138 (org.eclipse.wst.xml_ui.feature.feature.group 3.16.0.v201911262138)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2022-08-12 12:43:58.403
+!MESSAGE Only one of the following can be installed at once: 
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2022-08-12 12:43:58.403
+!MESSAGE Structured Source Editor 1.7.400.v202204091445 (org.eclipse.wst.sse.ui 1.7.400.v202204091445)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2022-08-12 12:43:58.403
+!MESSAGE Structured Source Editor 1.6.200.v201911262138 (org.eclipse.wst.sse.ui 1.6.200.v201911262138)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2022-08-12 12:43:58.403
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2022-08-12 12:43:58.403
+!MESSAGE From: PHP Development Tools (PDT) 7.2.1.202112011741 (org.eclipse.php.feature.group 7.2.1.202112011741)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2022-08-12 12:43:58.403
+!MESSAGE To: org.eclipse.equinox.p2.iu; org.eclipse.php.ui [7.2.1.202112011741,7.2.1.202112011741]
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2022-08-12 12:43:58.403
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2022-08-12 12:43:58.403
+!MESSAGE From: PDT UI Plug-in 7.2.1.202112011741 (org.eclipse.php.ui 7.2.1.202112011741)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2022-08-12 12:43:58.403
+!MESSAGE To: osgi.bundle; org.eclipse.wst.sse.ui 1.7.0
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2022-08-12 12:43:58.403
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2022-08-12 12:43:58.403
+!MESSAGE From: Eclipse XML Editors and Tools 3.16.0.v201911262138 (org.eclipse.wst.xml_ui.feature.feature.group 3.16.0.v201911262138)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2022-08-12 12:43:58.403
+!MESSAGE To: org.eclipse.equinox.p2.iu; org.eclipse.wst.sse.ui [1.6.200.v201911262138,1.6.200.v201911262138]
+
+!ENTRY org.eclipse.equinox.p2.operations 4 0 2022-08-12 12:43:58.404
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.operations 2 10001 2022-08-12 12:43:58.404
+!MESSAGE Your original request has been modified.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10005 2022-08-12 12:43:58.404
+!MESSAGE "WindowBuilder Core" will be ignored because it is already installed.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10005 2022-08-12 12:43:58.404
+!MESSAGE "WindowBuilder SWT Designer" will be ignored because it is already installed.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2022-08-12 12:43:58.404
+!MESSAGE "JavaScript Development Tools" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10005 2022-08-12 12:43:58.404
+!MESSAGE "WindowBuilder SWT Designer Core" will be ignored because it is already installed.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10005 2022-08-12 12:43:58.404
+!MESSAGE "WindowBuilder SWT Designer Documentation" will be ignored because it is already installed.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10005 2022-08-12 12:43:58.404
+!MESSAGE "WindowBuilder Core UI" will be ignored because it is already installed.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10005 2022-08-12 12:43:58.404
+!MESSAGE "WindowBuilder GroupLayout Support" will be ignored because it is already installed.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10005 2022-08-12 12:43:58.404
+!MESSAGE "WindowBuilder Java Core" will be ignored because it is already installed.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10005 2022-08-12 12:43:58.404
+!MESSAGE "WindowBuilder Core Documentation" will be ignored because it is already installed.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10005 2022-08-12 12:43:58.404
+!MESSAGE "WindowBuilder Swing Designer Documentation" will be ignored because it is already installed.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10005 2022-08-12 12:43:58.404
+!MESSAGE "WindowBuilder SWT Designer SWT_AWT Support" will be ignored because it is already installed.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10005 2022-08-12 12:43:58.404
+!MESSAGE "WindowBuilder Swing Designer" will be ignored because it is already installed.
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 10054 2022-08-12 12:43:58.404
+!MESSAGE Cannot complete the install because of a conflicting dependency.
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2022-08-12 12:43:58.404
+!MESSAGE Software being installed: PHP Development Tools (PDT) 7.2.1.202112011741 (org.eclipse.php.feature.group 7.2.1.202112011741)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2022-08-12 12:43:58.404
+!MESSAGE Software currently installed: Eclipse XML Editors and Tools 3.16.0.v201911262138 (org.eclipse.wst.xml_ui.feature.feature.group 3.16.0.v201911262138)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2022-08-12 12:43:58.404
+!MESSAGE Only one of the following can be installed at once: 
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2022-08-12 12:43:58.404
+!MESSAGE Structured Source Editor 1.7.400.v202204091445 (org.eclipse.wst.sse.ui 1.7.400.v202204091445)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2022-08-12 12:43:58.404
+!MESSAGE Structured Source Editor 1.6.200.v201911262138 (org.eclipse.wst.sse.ui 1.6.200.v201911262138)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2022-08-12 12:43:58.404
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2022-08-12 12:43:58.404
+!MESSAGE From: PHP Development Tools (PDT) 7.2.1.202112011741 (org.eclipse.php.feature.group 7.2.1.202112011741)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2022-08-12 12:43:58.404
+!MESSAGE To: org.eclipse.equinox.p2.iu; org.eclipse.php.ui [7.2.1.202112011741,7.2.1.202112011741]
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2022-08-12 12:43:58.404
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2022-08-12 12:43:58.404
+!MESSAGE From: PDT UI Plug-in 7.2.1.202112011741 (org.eclipse.php.ui 7.2.1.202112011741)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2022-08-12 12:43:58.405
+!MESSAGE To: osgi.bundle; org.eclipse.wst.sse.ui 1.7.0
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2022-08-12 12:43:58.405
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2022-08-12 12:43:58.405
+!MESSAGE From: Eclipse XML Editors and Tools 3.16.0.v201911262138 (org.eclipse.wst.xml_ui.feature.feature.group 3.16.0.v201911262138)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2022-08-12 12:43:58.405
+!MESSAGE To: org.eclipse.equinox.p2.iu; org.eclipse.wst.sse.ui [1.6.200.v201911262138,1.6.200.v201911262138]
+
+!ENTRY org.eclipse.core.jobs 4 2 2022-08-12 12:52:09.060
+!MESSAGE An internal error occurred during: "Updating Software".
+!STACK 0
+java.lang.IllegalStateException: Profile epp.package.java is not current. Expected timestamp 1660297691552 but was 1660297281198.
+	at org.eclipse.equinox.internal.p2.engine.SimpleProfileRegistry.lockProfile(SimpleProfileRegistry.java:861)
+	at org.eclipse.equinox.internal.p2.engine.Engine.perform(Engine.java:72)
+	at org.eclipse.equinox.internal.p2.engine.Engine.perform(Engine.java:48)
+	at org.eclipse.equinox.p2.operations.ProvisioningSession.performProvisioningPlan(ProvisioningSession.java:181)
+	at org.eclipse.equinox.p2.operations.ProfileModificationJob.runModal(ProfileModificationJob.java:76)
+	at org.eclipse.equinox.p2.operations.ProvisioningJob.run(ProvisioningJob.java:190)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
