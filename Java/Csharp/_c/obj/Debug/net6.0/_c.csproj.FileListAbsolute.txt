@@ -1,0 +1,15 @@
+/home/nk/Documents/LangDirecrtory/LangDirectory/Java/Csharp/_c/bin/Debug/net6.0/_c
+/home/nk/Documents/LangDirecrtory/LangDirectory/Java/Csharp/_c/bin/Debug/net6.0/_c.deps.json
+/home/nk/Documents/LangDirecrtory/LangDirectory/Java/Csharp/_c/bin/Debug/net6.0/_c.runtimeconfig.json
+/home/nk/Documents/LangDirecrtory/LangDirectory/Java/Csharp/_c/bin/Debug/net6.0/_c.dll
+/home/nk/Documents/LangDirecrtory/LangDirectory/Java/Csharp/_c/bin/Debug/net6.0/_c.pdb
+/home/nk/Documents/LangDirecrtory/LangDirectory/Java/Csharp/_c/obj/Debug/net6.0/_c.csproj.AssemblyReference.cache
+/home/nk/Documents/LangDirecrtory/LangDirectory/Java/Csharp/_c/obj/Debug/net6.0/_c.GeneratedMSBuildEditorConfig.editorconfig
+/home/nk/Documents/LangDirecrtory/LangDirectory/Java/Csharp/_c/obj/Debug/net6.0/_c.AssemblyInfoInputs.cache
+/home/nk/Documents/LangDirecrtory/LangDirectory/Java/Csharp/_c/obj/Debug/net6.0/_c.AssemblyInfo.cs
+/home/nk/Documents/LangDirecrtory/LangDirectory/Java/Csharp/_c/obj/Debug/net6.0/_c.csproj.CoreCompileInputs.cache
+/home/nk/Documents/LangDirecrtory/LangDirectory/Java/Csharp/_c/obj/Debug/net6.0/_c.dll
+/home/nk/Documents/LangDirecrtory/LangDirectory/Java/Csharp/_c/obj/Debug/net6.0/refint/_c.dll
+/home/nk/Documents/LangDirecrtory/LangDirectory/Java/Csharp/_c/obj/Debug/net6.0/_c.pdb
+/home/nk/Documents/LangDirecrtory/LangDirectory/Java/Csharp/_c/obj/Debug/net6.0/_c.genruntimeconfig.cache
+/home/nk/Documents/LangDirecrtory/LangDirectory/Java/Csharp/_c/obj/Debug/net6.0/ref/_c.dll
