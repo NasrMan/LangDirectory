@@ -1,0 +1,3 @@
+
+import tk as t
+from tk import *
