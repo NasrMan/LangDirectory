@@ -3,6 +3,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "Launch arrayz",
+      "request": "launch",
+      "mainClass": "JavaFiles.arrayz",
+      "projectName": "LangDirectory_2b157c8"
+    },
+    {
+      "type": "java",
       "name": "Launch nestedLoops",
       "request": "launch",
       "mainClass": "JavaFiles.nestedLoops",
