@@ -2,6 +2,20 @@
   "version": "0.2.0",
   "configurations": [
     {
+      "type": "java",
+      "name": "Launch nestedLoops",
+      "request": "launch",
+      "mainClass": "JavaFiles.nestedLoops",
+      "projectName": "LangDirectory_2b157c8"
+    },
+    {
+      "type": "java",
+      "name": "Launch forLoop",
+      "request": "launch",
+      "mainClass": "JavaFiles.forLoop",
+      "projectName": "LangDirectory_2b157c8"
+    },
+    {
       "name": ".NET Core Launch (console)",
       "type": "coreclr",
       "request": "launch",
